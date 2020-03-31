@@ -45,7 +45,7 @@ services:
     image: redis:alpine
 
   db:
-    image: postgres:alpine
+    image: postgres:9.6.16-alpine
     volumes:
       - datavolume:/var/lib/postgresql/data
 
